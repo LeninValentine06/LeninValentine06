@@ -1,8 +1,8 @@
 <h1 align="center">Hi, I'm Lenin Valentine C J 👋</h1>
 
 <p align="center">
-  <b>Embedded Software Engineer · B.Tech ECE @ SRMIST · CGPA 9.58</b><br/>
-  Firmware for medical devices, motor controllers & IoT systems · IEEE Author · FreeRTOS & QNX Neutrino
+  <b>Embedded Software Engineer · B.Tech ECE @ SRMIST</b><br/>
+  Firmware for medical devices, motor controllers & IoT systems · FreeRTOS & QNX Neutrino
 </p>
 
 <p align="center">
@@ -15,13 +15,7 @@
 
 ## 🧑‍💻 About Me
 
-I'm an ECE undergrad who spends most of my time writing firmware — close to the metal, close to the hardware. I've shipped real products across three internships in medical devices and industrial IoT, from spirometers and anesthesia machines to motor controllers and wearables.
-
-- 🏥 Currently at **Thynkure** building firmware for a spirometer and an anesthesia gas machine
-- 📄 Co-authored an **IEEE conference paper** on AI-assisted ICU ventilator monitoring (ISENSE 2024)
-- 🏆 **1st place** at QtHack04 Quantum Technologies Hackathon (RF Technology & Instrumentation)
-- 🎓 B.Tech ECE at **SRMIST** — CGPA **9.58 / 10** (2023–2027)
-- 📡 Technical Director, **SRM Electronics Club**
+I'm an ECE undergrad who spends most of my time writing firmware — close to the metal, close to the hardware. My work spans medical devices, motor controllers, wearables and industrial IoT, from spirometers and anesthesia machines to smart sports hardware.
 
 ---
 
@@ -57,16 +51,6 @@ I'm an ECE undergrad who spends most of my time writing firmware — close to th
 
 ---
 
-## 💼 Experience
-
-| Period | Company | Role | Highlights |
-|---|---|---|---|
-| Jan 2026 – Present | **Thynkure** | Embedded Software Intern | Spirometer firmware (STM32, LVGL UI, clinical signal processing); ESP32 MQTT telemetry for anesthesia machine; CAN inter-board architecture |
-| Jan 2025 – Dec 2025 | **ThynkLoop** | Embedded Software Intern | 3-phase SPWM motor controller (STM32F401, SiC gate driver); BLE wearable with on-device 4-class stroke classifier; ESP32-C6 smart cricket ball |
-| Aug 2024 – Oct 2024 | **Aiden Medical** | Embedded Software Intern | STM32H7 ventilator → AWS IoT pipeline (IoT Core, Lambda, DynamoDB); co-authored IEEE paper |
-
----
-
 ## 🚀 Projects
 
 ### 🫁 [Deterministic Anesthesia Gas Monitor](https://github.com/LeninValentine06/UROP)
@@ -91,7 +75,7 @@ Distributed early-warning system using ESP32 sensor mesh nodes (MPU6050, soil mo
 ---
 
 ### 🏥 [GenAI Ventilator — AWS IoT Simulation](https://github.com/LeninValentine06/GenAI-Ventilator-AWS-Simulation)
-Research prototype simulating ventilator telemetry to AWS IoT Core over MQTT/TLS, processed in real-time via AWS Lambda, and visualized through a Streamlit dashboard over WebSocket API. Accompanied by an ESP32 hardware prototype. Basis for the ISENSE 2024 IEEE paper.
+Research prototype simulating ventilator telemetry to AWS IoT Core over MQTT/TLS, processed in real-time via AWS Lambda, and visualized through a Streamlit dashboard over WebSocket API. Accompanied by an ESP32 hardware prototype.
 
 `Python` `AWS IoT Core` `MQTT` `AWS Lambda` `Streamlit` `ESP32`
 
@@ -101,19 +85,6 @@ Research prototype simulating ventilator telemetry to AWS IoT Core over MQTT/TLS
 ESP32-C6 embedded system integrating BMI088 IMU (SPI/I2C) and INMP441 microphone (I2S). Processes accelerometer and gyroscope data to compute ball speed and trajectory, streamed in real time over BLE. Includes a Python dashboard for live visualization and CSV data logging.
 
 `C++` `ESP32-C6` `BLE` `IMU` `Python`
-
----
-
-## 📜 Publications & Awards
-
-🏆 **1st Place** — QtHack04 Quantum Technologies Hackathon *(RF Technology & Instrumentation, SRMIST 2025)*
-
-🥉 **3rd Place** — Medicathon, IEEE VIT Vellore *(Operator-independent spirometer)*
-
-🥈 **Runner-up** — BIS Student Innovation & Pre-Standardization Pitch *(Real-time interoperable ICU monitoring)*
-
-📄 **IEEE Paper** — *"Enabling Augmented Intelligence Using Gen AI in Mechanical Ventilators"*, ISENSE 2024
-[DOI: 10.1109/ISENSE63713.2024.10872334](https://doi.org/10.1109/ISENSE63713.2024.10872334)
 
 ---
 
